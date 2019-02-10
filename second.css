@@ -1,0 +1,108 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*form styling*/
+.form
+{
+  width: 400px;
+  height: auto;
+  padding:20px 30px;
+  background-color: black;
+  position: ce
+
+}
+/*second big the div the */
+.finside1{
+  background-color: blue;
+  width: 400px;
+  padding:20px 30px;
+  height:450px ;
+}
+#two{
+  size:35px;
+  width: 400px;
+}
+#big{
+  size:400px;
+  height: 100px;
+  width:400px;
+
+}
+#small{
+	size:40px;
+  height: 30px;
+  width:80px;
+
+}
+#on-line{
+	display:inline-flex;
+}
+#file{
+	border: 1px;
+	text-align:right;
+	background-color: white;
+	float:right;
+}
+
+/*drop down*/
+.container ul{
+	list-style: none;
+
+}
+
+.container ul li{
+	background-color: red;
+	width: 400px;
+	border:1px;
+}
+select{
+	width:400px;
+	background-color: red;
+}
